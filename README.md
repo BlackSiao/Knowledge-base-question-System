@@ -25,6 +25,6 @@
 对于错误码的提示，详情见官方对错误码的文档说明：https://www.xfyun.cn/doc/spark/ChatDoc-API.html#%E4%B8%80%E3%80%81%E6%9C%8D%E5%8A%A1%E4%BB%8B%E7%BB%8D
 
 ## 运行结果示例
-<img src=".演示demo/demo2.png" alt="icon"/>
+![cover](./演示demo/demo2.png)
 
 
