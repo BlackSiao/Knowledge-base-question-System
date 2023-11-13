@@ -71,8 +71,8 @@ class Document_Upload:
         return files, body
 
 if __name__ == '__main__':
-    APPId = "455cbe1b"
-    APISecret = "OGU1NTM3MzU3MDgzYmZhZmU4MGQxY2Fl"
+    APPId = "your id"
+    APISecret = "your api"
     curTime = str(int(time.time()))
     request_url = "https://chatdoc.xfyun.cn/openapi/fileUpload"
 

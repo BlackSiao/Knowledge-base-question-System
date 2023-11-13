@@ -121,9 +121,9 @@ def on_message(ws, message):
             ws.close()
 
 
-# if __name__ == '__main__':
-#     APPId = "455cbe1b"
-#     APISecret = "OGU1NTM3MzU3MDgzYmZhZmU4MGQxY2Fl"
+#     if __name__ == '__main__':
+#     APPId = "your id"
+#     APISecret = "your api"
 #     curTime = str(int(time.time()))
 #     # curTime = "1690945325"
 #     OriginUrl = "wss://chatdoc.xfyun.cn/openapi/chat"   #原始url
@@ -149,8 +149,8 @@ def on_message(ws, message):
 #
 
 if __name__ == '__main__':
-    APPId = "455cbe1b"
-    APISecret = "OGU1NTM3MzU3MDgzYmZhZmU4MGQxY2Fl"
+    APPId = "your id"
+    APISecret = "your api"
     OriginUrl = "wss://chatdoc.xfyun.cn/openapi/chat"
     curTime = str(int(time.time()))
     document_Q_And_A = Document_Q_And_A(APPId, APISecret, curTime, OriginUrl)

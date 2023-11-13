@@ -128,8 +128,8 @@ def get_answer(user_question):
 
 if __name__ == '__main__':
     # 初始化文档问答系统
-    APPId = "455cbe1b"
-    APISecret = "OGU1NTM3MzU3MDgzYmZhZmU4MGQxY2Fl"
+    APPId = "your id"
+    APISecret = "your api"
     OriginUrl = "wss://chatdoc.xfyun.cn/openapi/chat"
     curTime = str(int(time.time()))
     document_Q_And_A = Document_Q_And_A(APPId, APISecret, curTime, OriginUrl)
